@@ -1,0 +1,26 @@
+---
+title: "R Markdown and Leaflet"
+author: "Thorsten"
+date: "17 1 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(leaflet)
+library(dplyr)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Amazing Building
+
+
+
+```{r echo=FALSE}
+library(leaflet)
+leaflet() %>%
+  addTiles %>% # Add default OpenStreetMap map tiles
+  setView(lng = 6.958281, lat = 50.941278, zoom = 20) # Koelner Dom
+```
+
+[Cathedral of Cologne] (https://en.wikipedia.org/wiki/Cologne_Cathedral)
+
