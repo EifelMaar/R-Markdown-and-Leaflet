@@ -1,2 +1,2 @@
 # R-Markdown-and-Leaflet
-Cursera R Markdown and Leaflet
+Coursera R Markdown and Leaflet
